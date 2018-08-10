@@ -1,0 +1,73 @@
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    float: left;
+    list-style: none;
+}
+.wrap{
+    width: 782px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.top{
+    margin-top: 15px;
+}
+#logo h1{
+    width: 150px;
+    height: 0;
+    overflow: hidden;
+    padding-top: 48px;
+    float: left;
+    display: block;
+    background: url(../images/logo.png) no-repeat;
+}
+.menu .guild {
+    margin-top: 10px;
+}
+.menu .guild   li{
+    border-right: 1px solid #e2e2e2;
+    font-size: 15px;
+    margin: 11px;
+    padding:0 25px;
+    text-align: center;
+}
+.menu .guild   li a{
+    color:yellow;
+    font-weight: bold;
+}
+.subMenu{
+    margin-top:64px ;
+}
+.content {
+    margin-top: 15px;
+    border-top: 2px solid #dfdfdf;
+    padding-top: 27px;
+}
+.content  h2{
+    color: #616161;
+    float: left;
+    display: inline-block;
+}
+.content2{
+    color:purple ;
+    float: left;
+    padding: 33px 0 11px 54px;
+    font-weight: bold;
+}
+.content2 span{
+    color:blue;
+    float: left;
+    padding-left: 365px;
+}
+.content3 ul li{
+    display: block;
+    width: 600px;
+    padding: 11px 0 11px 12px;
+    font-size: 20px;
+    color: red;
+}

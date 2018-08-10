@@ -1,0 +1,9 @@
+body{
+    background: url(../images/bg.jpg) no-repeat center -10%;
+    background-size:75%;
+    background-color: purple;
+    background-origin: initial;
+    background-clip: revert;
+    background-attachment: scroll;
+}
+

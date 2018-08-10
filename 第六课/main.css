@@ -1,0 +1,33 @@
+*{
+    font-family: "黑体";
+}
+.bgc01{
+    background-color: #decbcb;
+}
+.bgc02{
+    background-color: #fff;
+}
+.down-bgcr{
+    background-color: red;
+}
+#tb-fiction{
+    width: 800px;
+    height: 400px;
+}
+.td-font{
+    font-family: "宋体";
+    font-size: 20px
+}
+/*后代选择器*/   /*继承  td继承了tr的属性*/
+.table-main-red td{
+    color: red;
+}
+.bgc01 td a{
+    background-color: pink;
+}
+.bgc01 a{
+    background-color: blue;
+}
+.shz,.xyj{
+    color:yellow;
+}

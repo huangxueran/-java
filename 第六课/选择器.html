@@ -1,0 +1,986 @@
+﻿<!--<!DOCTYPE html> 1-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<title>Document</title>-->
+<!--<style type="text/css">-->
+<!--td{-->
+<!--color: red;-->
+<!--font-size: 20px;-->
+<!--} -->
+<!--</style>-->
+<!--</head>-->
+
+<!--<!DOCTYPE html> 2-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<title>Document</title>-->
+<!--<style type="text/css">-->
+<!--.blue {-->
+<!--color: blue;-->
+<!--}-->
+
+<!--.bgc01 {-->
+<!--background-color: #decbcb;-->
+<!--}-->
+
+<!--.bgc02 {-->
+<!--background-color: #fff;-->
+<!--}-->
+
+<!--.bgc03 {-->
+<!--background-color: #decbcb;-->
+<!--}-->
+
+<!--.bgc04 {-->
+<!--background-color: #fff;-->
+<!--}-->
+
+<!--.td-font {-->
+<!--font-family: "宋体";-->
+<!--font-size: 20px;-->
+<!--}-->
+<!--.down-bgcr{-->
+<!--background-color: red;-->
+<!--}-->
+<!--</style>-->
+<!--</head>-->
+
+<!--<body>-->
+<!--<table id="tb-fiction" align="center" border="1" cellspacing="0" cellpadding="10">-->
+<!--<caption><h3>今日小说排行榜</h3></caption>-->
+<!--<thead>-->
+<!--<tr>-->
+<!--<th>排名</th>-->
+<!--<th>关键词</th>-->
+<!--<th>趋势</th>-->
+<!--<th>今日搜索</th>-->
+<!--<th>相关链接</th>-->
+<!--</tr>-->
+<!--</thead>-->
+<!--<tbody>-->
+
+<!--<tr class="bgc01">-->
+<!--<td class="td-font">1</td>-->
+<!--<td class="td-font">西游记</td>-->
+<!--<td class="td-font">上升</td>-->
+<!--<td class="td-font">19</td>-->
+<!--<td>-->
+<!--<a href="#" class="blue">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">百科</a>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr class="bgc02">-->
+<!--<td class="td-font">2</td>-->
+<!--<td class="td-font">水浒传</td>-->
+<!--<td class="down-bgcr td-font">下降</td>-->
+<!--<td class="td-font">11</td>-->
+<!--<td>-->
+<!--<a href="#" class="blue">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">百科</a>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr class="bgc03">-->
+<!--<td class="td-font">3</td>-->
+<!--<td class="td-font">红楼梦</td>-->
+<!--<td class="td-font">上升</td>-->
+<!--<td class="td-font">15</td>-->
+<!--<td>-->
+<!--<a href="#" class="blue">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">百科</a>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr class="bgc04">-->
+<!--<td class="td-font">4</td>-->
+<!--<td class="td-font">三国演义</td>-->
+<!--<td class="td-font">上升</td>-->
+<!--<<td class="td-font">5</td>-->
+<!--<td>-->
+<!--<a href="#" class="blue">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<a href="#" class="blue">百科</a>-->
+<!--</td>-->
+<!--</tr>-->
+<!--</tbody>-->
+<!--<tfoot>-->
+<!--<tr>-->
+<!--<td>今日搜索总计：</td>-->
+<!--<td colspan="4">50</td>-->
+<!--</tr>-->
+<!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>3-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Document</title>-->
+    <!--<style type="text/css">-->
+        <!--.bgc01{-->
+            <!--background-color: #decbcb;-->
+        <!--}-->
+        <!--.bgc02{-->
+            <!--background-color: #fff;-->
+        <!--}-->
+        <!--.down-bgcr{-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--#tb-fiction{-->
+            <!--width: 800px;-->
+            <!--height: 400px;-->
+        <!--}-->
+        <!--.td-font{-->
+            <!--font-family: "宋体";-->
+            <!--font-size: 20px-->
+        <!--}-->
+        <!--/*继承*/-->
+        <!--.table-main-red{-->
+            <!--color: red;-->
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >-->
+    <!--<caption><h3>今日小说排行榜</h3></caption>-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>排名</th>-->
+        <!--<th>关键词</th>-->
+        <!--<th>趋势</th>-->
+        <!--<th>今日搜索</th>-->
+        <!--<th>相关链接</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+
+<!--<tr class="bgc01 table-main-red">-->
+    <!--<td class="td-font">1</td>-->
+    <!--<td class="td-font">西游记</td>-->
+    <!--<td class="td-font">上升</td>-->
+    <!--<td class="td-font">19</td>-->
+    <!--<td class="td-font">-->
+        <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <!--<a href="#">百科</a>-->
+    <!--</td>-->
+<!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">2</td>-->
+        <!--<td class="td-font">水浒传</span></td>-->
+        <!--<td class="down-bgcr td-font">下降</td>-->
+        <!--<td class="td-font">11</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">3</td>-->
+        <!--<td class="td-font">红楼梦</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">15</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">4</td>-->
+        <!--<td class="td-font">三国演义</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">5</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--<tfoot>-->
+    <!--<tr>-->
+        <!--<td class="td-font">今日搜索总计：</td>-->
+        <!--<td class="td-font" colspan="4">50</td>-->
+    <!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>4-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Document</title>-->
+    <!--<style type="text/css">-->
+        <!--.bgc01{-->
+            <!--background-color: #decbcb;-->
+        <!--}-->
+        <!--.bgc02{-->
+            <!--background-color: #fff;-->
+        <!--}-->
+        <!--.down-bgcr{-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--#tb-fiction{-->
+            <!--width: 800px;-->
+            <!--height: 400px;-->
+        <!--}-->
+        <!--.td-font{-->
+            <!--font-family: "宋体";-->
+            <!--font-size: 20px-->
+        <!--}-->
+        <!--/*后代选择器*/-->
+        <!--.table-main-red td{-->
+            <!--color: red;-->
+        <!--}-->
+        <!--.bgc01 td a{-->
+            <!--background-color: pink;-->
+        <!--}-->
+        <!--.bgc01 a{-->
+            <!--background-color: blue;-->
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >-->
+    <!--<caption><h3>今日小说排行榜</h3></caption>-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>排名</th>-->
+        <!--<th>关键词</th>-->
+        <!--<th>趋势</th>-->
+        <!--<th>今日搜索</th>-->
+        <!--<th>相关链接</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">1</td>-->
+        <!--<td class="td-font"><span class="syj" id="xyj">西游记</span></td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">19</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">2</td>-->
+        <!--<td class="td-font">水浒传</td>-->
+        <!--<td class="down-bgcr td-font">下降</td>-->
+        <!--<td class="td-font">11</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">3</td>-->
+        <!--<td class="td-font">红楼梦</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">15</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">4</td>-->
+        <!--<td class="td-font">三国演义</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">5</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--<tfoot>-->
+    <!--<tr>-->
+        <!--<td class="td-font">今日搜索总计：</td>-->
+        <!--<td class="td-font" colspan="4">50</td>-->
+    <!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html> 5-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Document</title>-->
+    <!--<style type="text/css">-->
+        <!--.bgc01{-->
+            <!--background-color: #decbcb;-->
+        <!--}-->
+        <!--.bgc02{-->
+            <!--background-color: #fff;-->
+        <!--}-->
+        <!--.down-bgcr{-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--#tb-fiction{-->
+            <!--width: 800px;-->
+            <!--height: 400px;-->
+        <!--}-->
+        <!--.td-font{-->
+            <!--font-family: "宋体";-->
+            <!--font-size: 20px-->
+        <!--}-->
+        <!--/*后代选择器*/-->
+        <!--.table-main-red td{-->
+            <!--color: red;-->
+        <!--}-->
+        <!--.bgc01 td a{-->
+            <!--background-color: pink;-->
+        <!--}-->
+        <!--.bgc01 a{-->
+            <!--background-color: blue;-->
+        <!--}-->
+        <!--span{-->
+            <!--color: #00f;-->
+        <!--}-->
+        <!--/*覆盖*/-->
+        <!--span{-->
+            <!--color: pink;-->
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >-->
+    <!--<caption><h3>今日小说排行榜</h3></caption>-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>排名</th>-->
+        <!--<th>关键词</th>-->
+        <!--<th>趋势</th>-->
+        <!--<th>今日搜索</th>-->
+        <!--<th>相关链接</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">1</td>-->
+        <!--<td class="td-font"><span class="xyj" id="xyj">西游记</span></td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">19</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">2</td>-->
+        <!--<td class="td-font">水浒传</td>-->
+        <!--<td class="down-bgcr td-font">下降</td>-->
+        <!--<td class="td-font">11</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">3</td>-->
+        <!--<td class="td-font">红楼梦</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">15</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">4</td>-->
+        <!--<td class="td-font">三国演义</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">5</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--<tfoot>-->
+    <!--<tr>-->
+        <!--<td class="td-font">今日搜索总计：</td>-->
+        <!--<td class="td-font" colspan="4">50</td>-->
+    <!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html> 6-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Document</title>-->
+    <!--<style type="text/css">-->
+        <!--.bgc01{-->
+            <!--background-color: #decbcb;-->
+        <!--}-->
+        <!--.bgc02{-->
+            <!--background-color: #fff;-->
+        <!--}-->
+        <!--.down-bgcr{-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--#tb-fiction{-->
+            <!--width: 800px;-->
+            <!--height: 400px;-->
+        <!--}-->
+        <!--.td-font{-->
+            <!--font-family: "宋体";-->
+            <!--font-size: 20px-->
+        <!--}-->
+        <!--/*后代选择器*/-->
+        <!--.table-main-red td{-->
+            <!--color: red;-->
+        <!--}-->
+        <!--.bgc01 td a{-->
+            <!--background-color: pink;-->
+        <!--}-->
+        <!--.bgc01 a{-->
+            <!--background-color: blue;-->
+        <!--}-->
+        <!--/*优先级*/-->
+       <!--#xyj{-->
+           <!--color: yellow;-->
+       <!--} ID优先级最大的-->
+        <!--.xyj{-->
+            <!--color: blue;-->
+        <!--}-->
+        <!--span{-->
+            <!--color: pink;-->
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >-->
+    <!--<caption><h3>今日小说排行榜</h3></caption>-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>排名</th>-->
+        <!--<th>关键词</th>-->
+        <!--<th>趋势</th>-->
+        <!--<th>今日搜索</th>-->
+        <!--<th>相关链接</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">1</td>-->
+        <!--<td class="td-font"><span class="xyj" id="xyj">西游记</span></td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">19</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">2</td>-->
+        <!--<td class="td-font">水浒传</td>-->
+        <!--<td class="down-bgcr td-font">下降</td>-->
+        <!--<td class="td-font">11</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">3</td>-->
+        <!--<td class="td-font">红楼梦</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">15</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">4</td>-->
+        <!--<td class="td-font">三国演义</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">5</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--<tfoot>-->
+    <!--<tr>-->
+        <!--<td class="td-font">今日搜索总计：</td>-->
+        <!--<td class="td-font" colspan="4">50</td>-->
+    <!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>7-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Document</title>-->
+    <!--<style type="text/css">-->
+        <!--.bgc01{-->
+            <!--background-color: #decbcb;-->
+        <!--}-->
+        <!--.bgc02{-->
+            <!--background-color: #fff;-->
+        <!--}-->
+        <!--.down-bgcr{-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--#tb-fiction{-->
+            <!--width: 800px;-->
+            <!--height: 400px;-->
+        <!--}-->
+        <!--.td-font{-->
+            <!--font-family: "宋体";-->
+            <!--font-size: 20px-->
+        <!--}-->
+        <!--/*后代选择器*/-->
+        <!--.table-main-red td{-->
+            <!--color: red;-->
+        <!--}-->
+        <!--.bgc01 td a{-->
+            <!--background-color: pink;-->
+        <!--}-->
+        <!--.bgc01 a{-->
+            <!--background-color: blue;-->
+        <!--}-->
+        <!--/*优先级*/-->
+          <!--.xyj{-->
+              <!--color: blue;-->
+          <!--}类选择器是次要的-->
+        <!--span{-->
+            <!--color: pink;-->
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >-->
+    <!--<caption><h3>今日小说排行榜</h3></caption>-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>排名</th>-->
+        <!--<th>关键词</th>-->
+        <!--<th>趋势</th>-->
+        <!--<th>今日搜索</th>-->
+        <!--<th>相关链接</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">1</td>-->
+        <!--<td class="td-font"><span class="xyj" id="xyj">西游记</span></td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">19</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">2</td>-->
+        <!--<td class="td-font">水浒传</td>-->
+        <!--<td class="down-bgcr td-font">下降</td>-->
+        <!--<td class="td-font">11</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">3</td>-->
+        <!--<td class="td-font">红楼梦</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">15</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">4</td>-->
+        <!--<td class="td-font">三国演义</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">5</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--<tfoot>-->
+    <!--<tr>-->
+        <!--<td class="td-font">今日搜索总计：</td>-->
+        <!--<td class="td-font" colspan="4">50</td>-->
+    <!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>8-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Document</title>-->
+    <!--<style type="text/css">-->
+        <!--.bgc01{-->
+            <!--background-color: #decbcb;-->
+        <!--}-->
+        <!--.bgc02{-->
+            <!--background-color: #fff;-->
+        <!--}-->
+        <!--.down-bgcr{-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--#tb-fiction{-->
+            <!--width: 800px;-->
+            <!--height: 400px;-->
+        <!--}-->
+        <!--.td-font{-->
+            <!--font-family: "宋体";-->
+            <!--font-size: 20px-->
+        <!--}-->
+        <!--/*后代选择器*/-->
+        <!--.table-main-red td{-->
+            <!--color: red;-->
+        <!--}-->
+        <!--.bgc01 td a{-->
+            <!--background-color: pink;-->
+        <!--}-->
+        <!--.bgc01 a{-->
+            <!--background-color: blue;-->
+        <!--}-->
+        <!--/*优先级*/-->
+         <!--span{-->
+             <!--color: pink;-->
+         <!--}除非没有类选择器它才会选择标签选择器-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >-->
+    <!--<caption><h3>今日小说排行榜</h3></caption>-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>排名</th>-->
+        <!--<th>关键词</th>-->
+        <!--<th>趋势</th>-->
+        <!--<th>今日搜索</th>-->
+        <!--<th>相关链接</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">1</td>-->
+        <!--<td class="td-font"><span class="xyj" id="xyj">西游记</span></td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">19</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">2</td>-->
+        <!--<td class="td-font">水浒传</td>-->
+        <!--<td class="down-bgcr td-font">下降</td>-->
+        <!--<td class="td-font">11</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">3</td>-->
+        <!--<td class="td-font">红楼梦</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">15</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">4</td>-->
+        <!--<td class="td-font">三国演义</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">5</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--<tfoot>-->
+    <!--<tr>-->
+        <!--<td class="td-font">今日搜索总计：</td>-->
+        <!--<td class="td-font" colspan="4">50</td>-->
+    <!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html> 9-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Document</title>-->
+    <!--<style type="text/css">-->
+        <!--*{-->
+            <!--font-family: "黑体";-->
+        <!--}-->
+        <!--.bgc01{-->
+            <!--background-color: #decbcb;-->
+        <!--}-->
+        <!--.bgc02{-->
+            <!--background-color: #fff;-->
+        <!--}-->
+        <!--.down-bgcr{-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--#tb-fiction{-->
+            <!--width: 800px;-->
+            <!--height: 400px;-->
+        <!--}-->
+        <!--.td-font{-->
+            <!--font-family: "宋体";-->
+            <!--font-size: 20px-->
+        <!--}-->
+        <!--/*后代选择器*/   /*继承  td继承了tr的属性*/-->
+        <!--.table-main-red td{-->
+            <!--color: red;-->
+        <!--}-->
+        <!--.bgc01 td a{-->
+            <!--background-color: pink;-->
+        <!--}-->
+        <!--.bgc01 a{-->
+            <!--background-color: blue;-->
+        <!--}-->
+        <!--/*优先级*/-->
+        <!--#xyj{-->
+            <!--color:red;-->
+        <!--}-->
+        <!--.xyj{-->
+            <!--color:yellow;-->
+        <!--}-->
+        <!--/*如果里面加important表示非常重要的*/-->
+        <!--span{-->
+            <!--color: blue!important;-->
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >-->
+    <!--<caption><h3>今日小说排行榜</h3></caption>-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>排名</th>-->
+        <!--<th>关键词</th>-->
+        <!--<th>趋势</th>-->
+        <!--<th>今日搜索</th>-->
+        <!--<th>相关链接</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">1</td>-->
+        <!--<td class="td-font"><span class="xyj" id="xyj">西游记</span></td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">19</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">2</td>-->
+        <!--<td class="td-font">水浒传</td>-->
+        <!--<td class="down-bgcr td-font">下降</td>-->
+        <!--<td class="td-font">11</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc01 table-main-red">-->
+        <!--<td class="td-font">3</td>-->
+        <!--<td class="td-font">红楼梦</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">15</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--<tr class="bgc02 table-main-red">-->
+        <!--<td class="td-font">4</td>-->
+        <!--<td class="td-font">三国演义</td>-->
+        <!--<td class="td-font">上升</td>-->
+        <!--<td class="td-font">5</td>-->
+        <!--<td class="td-font">-->
+            <!--<a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <!--<a href="#">百科</a>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--<tfoot>-->
+    <!--<tr>-->
+        <!--<td class="td-font">今日搜索总计：</td>-->
+        <!--<td class="td-font" colspan="4">50</td>-->
+    <!--</tfoot>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            font-family: "黑体";
+        }
+        .bgc01{
+            background-color: #decbcb;
+        }
+        .bgc02{
+            background-color: #fff;
+        }
+        .down-bgcr{
+            background-color: red;
+        }
+        #tb-fiction{
+            width: 800px;
+            height: 400px;
+        }
+        .td-font{
+            font-family: "宋体";
+            font-size: 20px
+        }
+        /*后代选择器*/   /*继承  td继承了tr的属性*/
+        .table-main-red td{
+            color: red;
+        }
+        .bgc01 td a{
+            background-color: pink;
+        }
+        .bgc01 a{
+            background-color: blue;
+        }
+        .shz,.xyj{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+<table id="tb-fiction" align="center"  border="1" cellspacing="0" cellpadding="10" >
+    <caption><h3>今日小说排行榜</h3></caption>
+    <thead>
+    <tr>
+        <th>排名</th>
+        <th>关键词</th>
+        <th>趋势</th>
+        <th>今日搜索</th>
+        <th>相关链接</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="bgc01 table-main-red">
+        <td class="td-font">1</td>
+        <td class="td-font"><span class="xyj" id="xyj">西游记</span></td>
+        <td class="td-font">上升</td>
+        <td class="td-font">19</td>
+        <td class="td-font">
+            <a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">百科</a>
+        </td>
+    </tr>
+    <tr class="bgc02 table-main-red">
+        <td class="td-font">2</td>
+        <td class="td-font"><span class="shz">水浒传</span></td>
+        <td class="down-bgcr td-font">下降</td>
+        <td class="td-font">11</td>
+        <td class="td-font">
+            <a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">百科</a>
+        </td>
+    </tr>
+    <tr class="bgc01 table-main-red">
+        <td class="td-font">3</td>
+        <td class="td-font">红楼梦</td>
+        <td class="td-font">上升</td>
+        <td class="td-font">15</td>
+        <td class="td-font">
+            <a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">百科</a>
+        </td>
+    </tr>
+    <tr class="bgc02 table-main-red">
+        <td class="td-font">4</td>
+        <td class="td-font">三国演义</td>
+        <td class="td-font">上升</td>
+        <td class="td-font">5</td>
+        <td class="td-font">
+            <a href="#">贴吧</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">图片</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">百科</a>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td class="td-font">今日搜索总计：</td>
+        <td class="td-font" colspan="4">50</td>
+    </tfoot>
+</table>
+
+</body>
+</html>
+
